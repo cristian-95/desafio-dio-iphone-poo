@@ -1,0 +1,9 @@
+# dio iphone poo
+
+Este repositório contém minha solução para o desafio de projeto **Orientação a Objetos e UML: Diagramação de Classes do iPhone** do Bootcamp Santander 2023 da DIO.
+
+### PRIMEIRA VERSÃO DO DIAGRAMA UML:
+
+![uml](https://www.plantuml.com/plantuml/png/dPBVQYen48VlynHpgOXlS13FNOMM2lO5ncJKWMmIChELKlhkpJPrcuL5Q6-oan-RRxxysOfYrhxpnd1GoYUq10URYSAx0O3No0xa4gyx6uCibfFiEIdNzCCOF8fcj0hMemZiqYK6AepLG-oe4k4obYNVfUY0or3g_V3p_vGWVHSbE-09CuDyVGmCFIgw0NANF7KKL5hfrOpX6BUR6P7LPGwsVcJHVmVD7CwRhXUsOcwevF6jKCOfzaBDNCYJrSKIpBpINQEw-tcdkion309xFDEY-e6mqWytau_ecaRet0iUI_07d_66xXXPzFwcKjOhMcsQ1xbIRjgKmT8Jil-jK7rQiExJUjCyXaa--axJUghJRBXxOxOKND_vJm00)
+
+- [código uml](https://www.plantuml.com/plantuml/uml/dPBVQYen48VlynHpgOXlS13FNOMM2lO5ncJKWMmIChELKlhkpJPrcuL5Q6-oan-RRxxysOfYrhxpnd1GoYUq10URYSAx0O3No0xa4gyx6uCibfFiEIdNzCCOF8fcj0hMemZiqYK6AepLG-oe4k4obYNVfUY0or3g_V3p_vGWVHSbE-09CuDyVGmCFIgw0NANF7KKL5hfrOpX6BUR6P7LPGwsVcJHVmVD7CwRhXUsOcwevF6jKCOfzaBDNCYJrSKIpBpINQEw-tcdkion309xFDEY-e6mqWytau_ecaRet0iUI_07d_66xXXPzFwcKjOhMcsQ1xbIRjgKmT8Jil-jK7rQiExJUjCyXaa--axJUghJRBXxOxOKND_vJm00)
