@@ -1,5 +1,19 @@
 package com.cristian.iphone;
 
-public abstract class Iphone {
+import java.util.Scanner;
+
+public class Iphone {
+
+    public static final Scanner input = new Scanner(System.in);
+    public PhoneApp phoneApp;
+    public Iphone() {
+        this.phoneApp = new PhoneApp();
+    }
+
+
+
+
+
+
 
 }
