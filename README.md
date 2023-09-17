@@ -2,6 +2,12 @@
 
 Este repositório contém minha solução para o desafio de projeto **Orientação a Objetos e UML: Diagramação de Classes do iPhone** do Bootcamp Santander 2023 da DIO.
 
+### SEGUNDA VERSÃO DO DIAGRAMA UML:
+
+![UML](https://www.plantuml.com/plantuml/png/bP9HQWCX48RVFSKy9eJSe8JqhO6M1j8BJ7II5LmLPxQXbDwz6hkD2qiWB-xuiVppgRDbmIH3xvJrGkc4ck2W4v7_LW3m6Qm1xi9bfuFdnNB2tgFOId-KmYDBGYsW7JB3BdR1KyvOlOIUQY9q_sNcknWCsBpaUbz-VeuHub-HsG5Fc2pmzQEWzAZHJQ3jewEUl70hlPenh7Xwc5jaTPaBMxzQbgU39ElFctvWgxdGQrHq-5MYnoqEJCsUoP6MnHBKlD9TethwUQSQRomNWJsUQL7zWAtGhNyY5z0qGcZC1nuBUDndVA5xHXgT6rLqy89QckQUBvGQcxneUaFh7XMgemNh8QutpJ1C-UWxfVLMfwoylTgIDqFlVW40)
+- **obs:** métodos internos as classes de funcionalidades devem ser privados.
+- [código](https://www.plantuml.com/plantuml/uml/bP9HQWCX48RVFSKy9eJSe8JqhO6M1j8BJ7II5LmLPxQXbDwz6hkD2qiWB-xuiVppgRDbmIH3xvJrGkc4ck2W4v7_LW3m6Qm1xi9bfuFdnNB2tgFOId-KmYDBGYsW7JB3BdR1KyvOlOIUQY9q_sNcknWCsBpaUbz-VeuHub-HsG5Fc2pmzQEWzAZHJQ3jewEUl70hlPenh7Xwc5jaTPaBMxzQbgU39ElFctvWgxdGQrHq-5MYnoqEJCsUoP6MnHBKlD9TethwUQSQRomNWJsUQL7zWAtGhNyY5z0qGcZC1nuBUDndVA5xHXgT6rLqy89QckQUBvGQcxneUaFh7XMgemNh8QutpJ1C-UWxfVLMfwoylTgIDqFlVW40)
+
 ### PRIMEIRA VERSÃO DO DIAGRAMA UML:
 
 ![uml](https://www.plantuml.com/plantuml/png/dPBVQYen48VlynHpgOXlS13FNOMM2lO5ncJKWMmIChELKlhkpJPrcuL5Q6-oan-RRxxysOfYrhxpnd1GoYUq10URYSAx0O3No0xa4gyx6uCibfFiEIdNzCCOF8fcj0hMemZiqYK6AepLG-oe4k4obYNVfUY0or3g_V3p_vGWVHSbE-09CuDyVGmCFIgw0NANF7KKL5hfrOpX6BUR6P7LPGwsVcJHVmVD7CwRhXUsOcwevF6jKCOfzaBDNCYJrSKIpBpINQEw-tcdkion309xFDEY-e6mqWytau_ecaRet0iUI_07d_66xXXPzFwcKjOhMcsQ1xbIRjgKmT8Jil-jK7rQiExJUjCyXaa--axJUghJRBXxOxOKND_vJm00)
