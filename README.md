@@ -2,6 +2,19 @@
 
 Este repositório contém minha solução para o desafio de projeto **Orientação a Objetos e UML: Diagramação de Classes do iPhone** do Bootcamp Santander 2023 da DIO.
 
+## Desenvolvimento:
+
+- Cada vez que o projeto sofria uma mudança, antes de implementar eu atualizei o diagrama de classes do projeto.
+
+### TERCEIRA VERSÃO DO DIAGRAMA UML:
+
+- Houve uma mudança de idéia, e resolvi utilizar herança de uma classe abstrata que implementa a interface Screen no lugar de apenas interface.
+
+![uml](https://www.plantuml.com/plantuml/png/RP71JW8n48Rl-nHpN48uU3N6u4qIYIJu0aCxG9DkstHcHMDyTzijs4AubEdVuV_-cLsoO9Hni9rnGd6FYc2h8f7xwG3WqniDVFIdbVAE-zcLzXx45FMtwt374b49A8lCy182c25O6iW9jvRpEvvLhAPLzfEqHeS7YdtAULOcRi6jmj4xIlxpLpzGeS7nlqpwAdWD9XsftkJcd32SYwHjSO_H04y_7MJhYtV-9tq9EJtDbQTOl1cMfwr4umxFmyX6SLQdkC7YTp-hLnoPcZkJ9INz36hwmhvbb7PjE1jky41zuG4ReUeNoNhK3G2r_i1TtsodxkIAKHik2xaVGQ6r5xRoJb19GtDyejZWqw5eZSQM1ENBm68CYufvX8UhXxA0Mxbi_bQimqnFovHt7EmV)
+
+- [código](https//www.plantuml.com/plantuml/uml/RP71JW8n48Rl-nHpN48uU3N6u4qIYIJu0aCxG9DkstHcHMDyTzijs4AubEdVuV_-cLsoO9Hni9rnGd6FYc2h8f7xwG3WqniDVFIdbVAE-zcLzXx45FMtwt374b49A8lCy182c25O6iW9jvRpEvvLhAPLzfEqHeS7YdtAULOcRi6jmj4xIlxpLpzGeS7nlqpwAdWD9XsftkJcd32SYwHjSO_H04y_7MJhYtV-9tq9EJtDbQTOl1cMfwr4umxFmyX6SLQdkC7YTp-hLnoPcZkJ9INz36hwmhvbb7PjE1jky41zuG4ReUeNoNhK3G2r_i1TtsodxkIAKHik2xaVGQ6r5xRoJb19GtDyejZWqw5eZSQM1ENBm68CYufvX8UhXxA0Mxbi_bQimqnFovHt7EmV)
+
+
 ### SEGUNDA VERSÃO DO DIAGRAMA UML:
 
 ![UML](https://www.plantuml.com/plantuml/png/bP9HQWCX48RVFSKy9eJSe8JqhO6M1j8BJ7II5LmLPxQXbDwz6hkD2qiWB-xuiVppgRDbmIH3xvJrGkc4ck2W4v7_LW3m6Qm1xi9bfuFdnNB2tgFOId-KmYDBGYsW7JB3BdR1KyvOlOIUQY9q_sNcknWCsBpaUbz-VeuHub-HsG5Fc2pmzQEWzAZHJQ3jewEUl70hlPenh7Xwc5jaTPaBMxzQbgU39ElFctvWgxdGQrHq-5MYnoqEJCsUoP6MnHBKlD9TethwUQSQRomNWJsUQL7zWAtGhNyY5z0qGcZC1nuBUDndVA5xHXgT6rLqy89QckQUBvGQcxneUaFh7XMgemNh8QutpJ1C-UWxfVLMfwoylTgIDqFlVW40)
