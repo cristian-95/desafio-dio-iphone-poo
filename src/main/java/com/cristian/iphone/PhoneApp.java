@@ -1,7 +1,5 @@
 package com.cristian.iphone;
 
-import java.util.Random;
-
 public class PhoneApp extends App {
 
     public PhoneApp() {
@@ -16,13 +14,7 @@ public class PhoneApp extends App {
     }
 
     private void voiceMail() {
-        Random random = new Random(System.currentTimeMillis());
-        System.out.println("You have " + random.nextInt(15) + " voice messages in your voice mail.");
-    }
-
-    @Override
-    public void showIcons() {
-        System.out.println("\t0. " + IphoneInfo.HOME_BUTTON);
+        System.out.println("You have " + Iphone.random.nextInt(15) + " voice messages in your voice mail.");
     }
 
     @Override
@@ -32,7 +24,7 @@ public class PhoneApp extends App {
         System.out.println("1. make a call.");
         System.out.println("2. answer a call.");
         System.out.println("3. check your voice mail.");
-        showIcons();
+        super.showIcons();
         System.out.print(": ");
         option = Iphone.input.nextInt();
         optionManager(option);
