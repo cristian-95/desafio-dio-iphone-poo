@@ -9,10 +9,12 @@ public class Iphone {
     public static final Random random = new Random(System.currentTimeMillis());
     public PhoneApp phoneApp;
     public Ipod ipod;
+    public Safari safari;
 
     public Iphone() {
         this.phoneApp = new PhoneApp();
         this.ipod = new Ipod();
+        this.safari = new Safari();
     }
 
 
