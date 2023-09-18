@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Safari extends App {
 
-    private List<String> tabs;
+    private final List<String> tabs;
     private String tabOnDisplay;
 
     public Safari() {
@@ -48,7 +48,7 @@ public class Safari extends App {
     }
 
     private void switchTabs() {
-        int option = -1;
+        int option;
         System.out.println("\tOpened Tabs");
         for (int i = 1; i <= this.tabs.size(); i++) {
             System.out.println(i + " " + this.tabs.get(i - 1));
@@ -62,8 +62,7 @@ public class Safari extends App {
 
     @Override
     public void showOptions() {
-        int option;
-        System.out.println("Ipod");
+        System.out.println("\tSAFARI BROWSER");
         System.out.println("1. access a site.");
         System.out.println("2. reload tab.");
         System.out.println("3. new tab.");
@@ -71,12 +70,11 @@ public class Safari extends App {
         System.out.println("5. close current tab");
         showIcons();
         System.out.print(": ");
-        option = Iphone.input.nextInt();
-        optionManager(option);
+        optionManager(getInput());
     }
 
     @Override
-    public void optionManager(int option) {
+    public void optionManager(Integer option) {
         switch (option) {
             case 1 -> {
                 System.out.println("Enter the site address: ");
@@ -91,6 +89,8 @@ public class Safari extends App {
             }
             case 4 -> switchTabs();
             case 5 -> closeCurrentTab();
+            case 0 -> Iphone.homeScreen.showOptions();
+            case -1 -> Iphone.turnOff();
             default -> {
                 System.out.println("Invalid option, try again");
                 showOptions();

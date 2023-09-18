@@ -19,19 +19,18 @@ public class PhoneApp extends App {
 
     @Override
     public void showOptions() {
-        int option;
-        System.out.println("PhoneApp");
+
+        System.out.println("\tPHONE APP");
         System.out.println("1. make a call.");
         System.out.println("2. answer a call.");
         System.out.println("3. check your voice mail.");
         super.showIcons();
         System.out.print(": ");
-        option = Iphone.input.nextInt();
-        optionManager(option);
+        optionManager(getInput());
     }
 
     @Override
-    public void optionManager(int option) {
+    public void optionManager(Integer option) {
         switch (option) {
             case 1 -> {
                 System.out.println("Enter a contact to call: ");
@@ -40,6 +39,8 @@ public class PhoneApp extends App {
             }
             case 2 -> answer();
             case 3 -> voiceMail();
+            case 0 -> Iphone.homeScreen.showOptions();
+            case -1 -> Iphone.turnOff();
             default -> {
                 System.out.println("Invalid option, try again");
                 showOptions();

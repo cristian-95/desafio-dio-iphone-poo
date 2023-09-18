@@ -10,7 +10,7 @@ public class Ipod extends App {
 
     private Boolean isPlaying;
     private String nowPlaying;
-    private List<String> musicList;
+    private final List<String> musicList;
 
     public Ipod() {
         this.musicList = loadMusics();
@@ -50,7 +50,7 @@ public class Ipod extends App {
     }
 
     private void selectMusic() {
-        int option = -1;
+        int option;
         System.out.println("\tMusics");
         for (int i = 1; i <= this.musicList.size(); i++) {
             System.out.println(i + " " + this.musicList.get(i - 1));
@@ -67,25 +67,23 @@ public class Ipod extends App {
 
     @Override
     public void showOptions() {
-        int option;
-        System.out.println("Ipod");
+        System.out.println("\tIPOD");
         System.out.println("1. select a song.");
         System.out.println("2. play.");
         System.out.println("3. pause.");
         showIcons();
         System.out.print(": ");
-        option = Iphone.input.nextInt();
-        optionManager(option);
+        optionManager(getInput());
     }
 
     @Override
-    public void optionManager(int option) {
+    public void optionManager(Integer option) {
         switch (option) {
-            case 1 -> {
-                selectMusic();
-            }
+            case 1 -> selectMusic();
             case 2 -> play();
             case 3 -> pause();
+            case 0 -> Iphone.homeScreen.showOptions();
+            case -1 -> Iphone.turnOff();
             default -> {
                 System.out.println("Invalid option, try again");
                 showOptions();
