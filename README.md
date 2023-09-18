@@ -2,6 +2,35 @@
 
 Este repositório contém minha solução para o desafio de projeto **Orientação a Objetos e UML: Diagramação de Classes do iPhone** do Bootcamp Santander 2023 da DIO.
 
+## DIAGRAMA UML (versão final)
+
+- *Construtores, getters e setters omitidos.*
+
+![UML](https://www.plantuml.com/plantuml/png/TLB1Rjim3BtdAtJC4EImwp0CNRC2DT3CGPES2rQc4s4o9KZqiY7elq-AN9SniejblaUGZ-IxYmo1-yxE33665ZIghGw8T9uffNuxqwXuTATAEuhpJrTOxTaKz6qsWzV80JGhRI56zTrxPJfliKFYA4ikRjLSJ8jAs5sWDH0SCCmDyO2Kb1mVa2loFHSfHK7bZuumjLoS8mCR_QRkdRC8fBmxOP14QmXi4Wb465JCxws4Pw36TIfS7aa_kWxBYEeu_ig4ohj6cVIHu2OBp8lomuyajz12C2fU7a6KzNCVgAOqxasYRJEpl02_C13Q75zTIUweejQTRwo3Ww63UgpN3o_t-zsk_ldVdFL-MwrUjlN-UVMGsvGJbAdn3oCr5qVa-o_VZs3Yni9VGuSC3dN8dGJuP29_BSmtrVNHw8oCpDF0M0VDEhF5D6Lidyh84Fg88eveKIUxgD4lmyAlvKv5SDgVa9l2cdwOc9kfiNPJW0qSS3uaHiFuqJnWbho3Lo48cWcWhOkuwaD0ucicdWphOyAYiBkqe1nXJ1ZTTasFxS3QTxNQ4ODc8OxY2OEGa3uQrs1iKL1if9QzNtwq-Q8-IsBOxnGk7fc0SfXCtIMzVMV_0G00)
+
+- [código](https://www.plantuml.com/plantuml/uml/TLB1Rjim3BtdAtJC4EImwp0CNRC2DT3CGPES2rQc4s4o9KZqiY7elq-AN9SniejblaUGZ-IxYmo1-yxE33665ZIghGw8T9uffNuxqwXuTATAEuhpJrTOxTaKz6qsWzV80JGhRI56zTrxPJfliKFYA4ikRjLSJ8jAs5sWDH0SCCmDyO2Kb1mVa2loFHSfHK7bZuumjLoS8mCR_QRkdRC8fBmxOP14QmXi4Wb465JCxws4Pw36TIfS7aa_kWxBYEeu_ig4ohj6cVIHu2OBp8lomuyajz12C2fU7a6KzNCVgAOqxasYRJEpl02_C13Q75zTIUweejQTRwo3Ww63UgpN3o_t-zsk_ldVdFL-MwrUjlN-UVMGsvGJbAdn3oCr5qVa-o_VZs3Yni9VGuSC3dN8dGJuP29_BSmtrVNHw8oCpDF0M0VDEhF5D6Lidyh84Fg88eveKIUxgD4lmyAlvKv5SDgVa9l2cdwOc9kfiNPJW0qSS3uaHiFuqJnWbho3Lo48cWcWhOkuwaD0ucicdWphOyAYiBkqe1nXJ1ZTTasFxS3QTxNQ4ODc8OxY2OEGa3uQrs1iKL1if9QzNtwq-Q8-IsBOxnGk7fc0SfXCtIMzVMV_0G00)
+
+- [versões antigas do diagrama](#desenvolvimento)
+
+## Como Utilizar
+
+### Requisitos
+- [Java Development Kit (JDK) 17](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+
+### Configuração do Projeto
+1. Clone este repositório para o seu ambiente local ou faça o download do código-fonte.
+   ```shell
+   git clone https://github.com/cristian-95/desafio-dio-iphone-poo.git
+   ```
+
+2. Abra o IntelliJ IDEA e selecione "Abrir Projeto" para navegar até o diretório onde você clonou o projeto. Você pode selecionar o diretório ou o arquivo `pom.xml`.
+
+### Executando o Projeto
+1. Abra o arquivo principal do seu projeto Java (normalmente com o método `main`).
+
+2. Clique com o botão direito no arquivo principal e escolha "Run" para executar o programa.
+
 ## Desenvolvimento:
 
 - Cada vez que o projeto sofria uma mudança, o diagrama era atualizado antes da implementação, as versões do diagrama estão listadas abaixo, da mais recente até a mais antiga.
